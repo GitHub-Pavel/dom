@@ -1,0 +1,12 @@
+docker-compose.*
+__tests__
+.venv
+*.pyc
+.git
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+**/__pycache__
+.env*

@@ -1,0 +1,13 @@
+[project]
+name = "dom"
+version = "0.1.0"
+description = "Documents of the meeting"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = ["apps/*", "libs/*"]
+
+[tool.basedpyright]
+venvPath = "."
+venv = ".venv"
